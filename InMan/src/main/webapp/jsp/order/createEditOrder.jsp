@@ -10,7 +10,7 @@
     function updateTips( t ) {
       tips
         .text( t )
-        .addClass( "ui-state-highlight" );
+        .addClass( "ui-state-highlightttt" );
       setTimeout(function() {
         tips.removeClass( "ui-state-highlight", 1500 );
       }, 500 );
